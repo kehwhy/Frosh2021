@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import {Avatar} from 'antd'
 
 //array with nav bar parts
 const navLinks = [
@@ -26,7 +27,8 @@ const navLinks = [
 
 export default function Navigation () {
     return (<nav className="site-navigation">
-        <span> McGill Engineering Frosh</span>
+        <span className = "menu-title"> </span>
+ 
         <ul> 
             {navLinks.map((link,index) =>(
                     <li key={index}>
@@ -36,5 +38,7 @@ export default function Navigation () {
                     </li>
             ))}
         </ul>
+        <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
+
     </nav>)
 }
