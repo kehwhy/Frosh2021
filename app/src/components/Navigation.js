@@ -1,6 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
-import {Avatar} from 'antd'
+
 
 //array with nav bar parts
 const navLinks = [
@@ -13,8 +13,8 @@ const navLinks = [
         path: '/blog'
     }, 
     {
-        title: 'Contact Us',
-        path :'/contact-us'
+        title: 'FAQ',
+        path :'/faq'
 
     },
     {
@@ -26,9 +26,13 @@ const navLinks = [
 //interating through navlink array 
 
 export default function Navigation () {
-    return (<nav className="site-navigation">
+
+    const [menuActive, setMenuActive] = useState(false)
+    return (
+
+    <nav className="site-navigation" role="navigation">
         <span className = "menu-title"> </span>
- 
+        <div className={`menu-content-container ${menuActive && 'active'}`}>
         <ul> 
             {navLinks.map((link,index) =>(
                     <li key={index}>
@@ -37,8 +41,14 @@ export default function Navigation () {
                                     
                     </li>
             ))}
-        </ul>
-        <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
 
-    </nav>)
+             
+        </ul>
+       
+       </div>
+
+       <i className="ionicons icon ion-ios-menu" onClick={() => setMenuActive(!menuActive)}/>
+
+   </nav>
+)
 }

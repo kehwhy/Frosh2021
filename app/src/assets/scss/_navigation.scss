@@ -11,31 +11,85 @@
         margin-left: 30px;
 
     }
+    .ion-ios-menu{
+        font-size: 36px;
+        width: 65px;
+        align-items: center;
+        cursor: pointer;
+        display: none;
 
- 
+    }
+   
 
-    ul{
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-        list-style-type: none;
-        padding-top:10px;
-       
-        
-        
+    .menu-content-container{
 
-        a {
-            text-decoration: none;
-            font-size: 35px;
-            color: $text-color;
-            font-family: 'Poppins', sans-serif;
-            padding-left: 70px;
-            padding-right: 70px;
-           
+        padding-right: 30px;
 
-            &:hover {
-                color:$text-link;
+        ul{
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            padding-top:10px;
+    
+            
+            
+            
+    
+            a {
+                text-decoration: none;
+                font-size: 36px;
+                color: $text-color;
+                font-family: 'Poppins', sans-serif;
+                padding-left: 70px;
+                padding-right: 70px;
+               
+    
+                &:hover {
+                    color:$text-link;
+                }
             }
         }
     }
+
+    
+}
+
+@media screen and (max-width: 830px){
+    .site-navigation{
+        .menu-content-container{
+            width: 300px;
+            height: calc(100% - 100px);
+            background: white;
+            position: absolute;
+            top: 65px;
+            left: -300px;
+            transition: 300ms ease left;
+            
+            ul, li{
+                width: 100%;
+            }
+            a{
+                width: 100%;
+                padding: 0;
+            }
+            ul{
+                flex-direction: column;
+                justify-content: flex-start;
+
+            }
+
+            &.active{
+                left: 0px;
+            }
+
+       
+        
+    }
+    .ion-ios-menu{
+        display:flex;
+        padding-left: 30px;
+    
+    }
+}
 }
