@@ -6,9 +6,13 @@
     color: $text-color;
     margin: 0 auto;
     overflow-x: auto;
+    position: fixed;
+    z-index: 100;
+    top: 0;
 
     .menu-title{
         margin-left: 30px;
+
 
     }
     .ion-ios-menu{
@@ -25,12 +29,15 @@
 
         padding-right: 30px;
 
+ 
+
         ul{
             padding: 0;
             display: flex;
             justify-content: space-between;
             list-style-type: none;
             padding-top:10px;
+
     
             
             
@@ -43,6 +50,7 @@
                 font-family: 'Poppins', sans-serif;
                 padding-left: 70px;
                 padding-right: 70px;
+     
                
     
                 &:hover {
@@ -61,10 +69,11 @@
             width: 300px;
             height: calc(100% - 100px);
             background: white;
-            position: absolute;
+            position: fixed;
             top: 65px;
             left: -300px;
             transition: 300ms ease left;
+            
             
             ul, li{
                 width: 100%;
