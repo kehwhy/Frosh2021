@@ -1,0 +1,21 @@
+{
+  "name": "frosh-2020-backend",
+  "version": "1.0.0",
+  "description": "A Koa and GraphQL backend for frosh 2020 blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "remote -v https://github.com/MassivaM/frosh2020.git"
+  },
+  "author": "Massy Mahamli",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-koa": "^2.15.0",
+    "graphql-tools": "^6.0.10",
+    "koa": "^2.12.1",
+    "moment": "^2.27.0"
+  }
+}
