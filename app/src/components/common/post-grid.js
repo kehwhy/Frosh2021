@@ -16,6 +16,17 @@ export default function PostGrid ({posts}){
         return posts.slice(firstIndex, lastIndex)
     }, [current, pageSize])
 
+//this executes everytime curren or pageSize are updated
+
+    useEffect(() => {
+    window.scroll ({
+        top:500,
+        left:0,
+        behavior: 'smooth'
+    })
+},[current, pageSize])
+    
+
     return(
         <section className = "grid-pagination-container">
             <section className="post-grid container">

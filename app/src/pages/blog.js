@@ -46,24 +46,21 @@ const lastPost = featured.pop()
 export default function Blog() {
     return <main className="blog">
     <section className="container home"> 
-    <div className = "row"> 
+    <div className = "row-top"> 
         <section className= "featured-posts-container">
         <PostMasonry posts = {featured} columns= {2} tagsOnTop={true}/>
         <MasonryPost post={lastPost}  tagsOnTop={true}/>
         </section> 
      </div>
      </section>
-
     <section className="container home"> 
     <div className = "row"> 
         <h1>Recent Posts</h1>
         <PostGrid posts = {recentPosts}/>
     </div>
     </section>
-
         <section className="container home"> 
         <div className = "row"> 
-        
         <PostMasonry posts = {trending} columns={3}/>
     </div>
     </section>
