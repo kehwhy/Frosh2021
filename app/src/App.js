@@ -3,7 +3,12 @@ import Navigation from './components/common/Navigation'
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import PageRenderer from './page-renderer'
 
+
 function App() {
+  
+  
+  
+
   return (
     <Router>
     <div className="App">

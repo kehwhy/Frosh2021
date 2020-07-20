@@ -1,0 +1,253 @@
+
+
+.home{
+   
+.home-title{
+    
+    padding-top: 130px;
+    padding-left: 0px;
+    font-family: 'Staatliches', cursive;
+    line-height: 1.45;
+    position: relative ;
+    text-align:left;
+
+
+    .engfrosh{
+        font-size: 170px;
+        letter-spacing: 200px;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        top: 100px;
+        left: 150px;
+    }
+    .engfrosh12{
+        font-size: 170px;
+        letter-spacing: 200px;
+        color: black;
+        z-index: 2;
+        position: absolute;
+        left: 520px;
+    }
+    .engfrosh2{
+        font-size: 170px;
+        letter-spacing: 200px;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        top: 355px;
+        left: 150px;
+    }
+    .engfrosh22{
+        font-size: 170px;
+        letter-spacing: 200px;
+        color: black;
+        z-index: 2;
+        position: absolute;
+        top: 0px;
+        left: 520px;
+    }
+    .engfrosh3{
+        font-size: 170px;
+        letter-spacing: 200px;
+        color: black;
+        z-index: 2;
+        position: absolute;
+        top: 600px;
+        left: 150px;
+    }
+    .engfrosh32{
+        font-size: 170px;
+        letter-spacing: 200px;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        top: 0px;
+        left: 800px;
+   
+  
+    }
+
+
+    .backImage{
+        z-index: 1;
+        left:130px;
+        position: absolute;
+    }
+    .backImage2{
+        z-index: 1;
+        top:380px;
+        left:820px;
+        position: absolute;
+    }
+
+    .genInfo{
+        position: absolute;
+        top:980px;
+        text-align: left;
+        font-family: 'Poppins', cursive;
+        width: 100%;
+        background-image: url(../images/sky.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    
+       a{
+           text-align: left;
+           font-size: 100px;
+           color: white;
+           padding-left: 50px;
+          
+       }
+       .paragraph{
+           position: absolute;
+           top: 120px;
+           left: 400px;
+           font-size: 18px;
+           color:white;
+           font-family: 'Lato', sans-serif;
+           text-align: justify;
+           padding-right: 50px;
+       }
+    }
+
+    .themereveal{
+        position: absolute;
+        top:1460px;
+        text-align: center;
+        font-family: 'Poppins', cursive;
+        width: 100%;
+        img{
+            opacity: 70%;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+    }
+
+    
+
+
+    .sponsor{
+        position: absolute;
+        top:2100px;
+        text-align: center;
+        font-family: 'Staatliches', cursive;
+        width: 100%;
+
+        a{
+        font-size: 170px;
+        padding-left: 50px;
+        letter-spacing: 80px;
+        color:black;
+        opacity: 30%;
+        
+    }
+        .hotspot{
+            
+            background-image: url(../images/sky.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+                .hotspottitle{
+            color: white;
+            opacity: 100%;
+            letter-spacing: 20px;
+            padding-left: 50px;
+            font-family: 'Poppins', cursive;
+            font-size: 120px;
+
+                }
+        }
+        .blog{
+            background-image: url(../images/sky.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            list-style-type: none;
+            a{
+                color: white;
+            opacity: 100%;
+            letter-spacing: 20px;
+            padding-left: 50px;
+            font-family: 'Staatliches', cursive;
+            font-size: 70px;
+            padding-top: 20px;
+            }
+            .paragraph{
+
+           padding: 30px;
+           font-size: 25px;
+           color:white;
+           font-family: 'Lato', sans-serif;
+           text-align: justify;
+           padding-right: 50px;
+           text-align: center;
+       
+              
+            }
+            .bloglink{
+                text-decoration: none;
+      
+                cursor:pointer
+
+                
+
+            }
+            .bloglink:hover { color: black; }
+            
+         
+        }
+        .footerend  {
+            width: 100%;
+
+            padding-top: 30px;
+            align-items:center;
+            font-size: 12px;
+            
+                    color:black;
+                    font-family: 'Poppins', sans-serif;
+                    text-align: justify;
+                    padding-right: 50px;
+                    text-align: center;
+    
+           
+           .icon{
+            left:550px;
+            position: absolute;;
+            padding:0px;
+            margin:0;
+            max-height: 70px;
+            a{
+                
+                position: absolute;
+            }
+           }
+        .copyright{
+          left:570px;
+           position: absolute;
+           padding-top: 70px;
+         
+        }
+       
+        }
+
+
+        
+
+    
+}
+
+        
+
+        
+}
+
+
+}
