@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from './components/common/Navigation'
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import PageRenderer from './page-renderer'
-
+import Resources from './pages/resources'
 
 function App() {
   
@@ -14,7 +14,9 @@ function App() {
     <div className="App">
       <Navigation/>
       <Switch>
+      <Route path="/resources" component={Resources}/>
         <Route path="/:page" component={PageRenderer} />
+        
         <Route path="/" render={() => <Redirect to="/home" />}/>
         <Route component={() => 404} />
       </Switch>

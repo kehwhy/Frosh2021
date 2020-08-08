@@ -1,5 +1,68 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
+import { makeStyles } from '@material-ui/core/styles';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
+import title from '../../assets/images/frosh2020-logoforwebsite2.svg'
+
+
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+  
+    flexGrow: 1,
+  },
+  
+  menuButton: {
+  
+  },
+  title: {
+    color: 'black', 
+ 
+  },
+  list:{
+
+
+},buttons:{
+  marginLeft:'auto',
+  color: 'black', 
+  
+ 
+
+
+},
+button:{
+  margin:11,
+  fontSize: 15,
+  
+
+
+},
+links:{
+   
+  color: 'black', 
+  padding:0,
+  '&:hover': {
+    color: "#aa4a40",
+ },
+
+
+
+},
+  logo:{
+    padding:0,
+    margin: 0
+
+  },
+  register:{
+    color: 'white',
+    backgroundColor : "#aa4a40",
+  },
+ 
+}));
 
 
 //array with nav bar parts
@@ -18,37 +81,45 @@ const navLinks = [
 
     },
     {
-        title:'Login', 
-        path : '/login'
-    }
-
+      title: 'Resources',
+      path:'/resources'
+    },
+    
+    
+  
 ]
 //interating through navlink array 
 
 export default function Navigation () {
-
+    const classes = useStyles();
     const [menuActive, setMenuActive] = useState(false)
     return (
 
-    <nav className="site-navigation" role="navigation">
-        <span className = "menu-title"> </span>
-        <div className={`menu-content-container ${menuActive && 'active'}`}>
-        <ul> 
+    
+   <nav className="site-navigation" role="navigation">
+    <div className={classes.root}>
+    <AppBar position="fixed"  style={{ margin: 0, padding: 0, background: 'white', boxShadow: 'blur'}}>
+          <Toolbar>
+          <img src={title} alt="logo" className={classes.logo}/>
+        
+            <div className={classes.buttons}>
+            
             {navLinks.map((link,index) =>(
-                    <li key={index}>
+                <Button className={classes.button}>
+                  
 
-                        <Link to={link.path}>{link.title}</Link>
-                                    
-                    </li>
-            ))}
-
+                  <Link to={link.path} className={classes.links}>{link.title}</Link>
+                              
              
-        </ul>
-       
-       </div>
-
-       <i className="ionicons icon ion-ios-menu" onClick={() => setMenuActive(!menuActive)}/>
-
-   </nav>
+                        
+            </Button>))}
+            <Button  className={classes.register}>Register now!</Button>
+              </div>
+ 
+        
+      </Toolbar>
+    </AppBar>
+    </div>
+</nav>
 )
 }

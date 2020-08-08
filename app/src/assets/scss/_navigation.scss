@@ -1,5 +1,5 @@
 .site-navigation{
-    height: 100px;
+    height: 50px;
     width: 100%; 
     //max-width: 1024px;
     background: #FEFFFF ;
@@ -43,7 +43,7 @@
             
             
     
-            a {
+            li {
                 text-decoration: none;
                 font-size: 36px;
                 color: $text-color;
@@ -54,7 +54,7 @@
                
     
                 &:hover {
-                    color:$text-link;
+                    color:#6E3335;
                 }
             }
         }
