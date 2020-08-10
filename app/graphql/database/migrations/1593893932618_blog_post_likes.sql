@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS blog_post_likes(
     post_id INT(12) NOT NULL, 
     author_id INT(12) NOT NULL, 
-    UNIQUE KEY(post_id, author_id)
+    UNIQUE KEY(post_id, author_id),
     CONSTRAINT fk_bplpost FOREIGN KEY (post_id)
     REFERENCES blog_posts(id)
     ON DELETE CASCADE 

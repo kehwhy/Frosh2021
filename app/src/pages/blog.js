@@ -38,8 +38,8 @@ const mergeStyles = function (posts, config){
     posts.forEach((post, index) => 
     {
         post.style = config[index]
-        post.author = 'Massy Mahamli'
-        post.description = 'coucou ça va'
+        post.author = post.author
+        post.description = post.description
     })
 }
 

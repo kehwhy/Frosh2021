@@ -2,37 +2,14 @@ import moment from 'moment'
 
 export default[
     {
-        title: 'What is frosh?',
-        date: moment().format('MMMM DD, YYYY'), 
-        categories: ['Student life', 'Frosh updates', 'University tips'],
-        link: '#',
-        image: 'theme_hint_1.png'
+        title: 'Official Frosh 2020 COVID-19 Anouncement',
+        date: 'August 10, 2020', 
+        categories: ['Frosh updates'],
+        link: '/welcome',
+        author: 'Coords',
+        image: 'frosh2020-whiteshirtlogo.png',
+        description : "A summary of what's happening this year"
 
-    }, 
-    {
-        title: 'What is frosh part 2?',
-        date: moment().format('MMMM DD, YYYY'), 
-        categories: ['Student life'],
-        link: '#',
-        image: 'hint_2.png'
-
-    },
-    {
-        title: 'What is frosh?',
-        date: moment().format('MMMM DD, YYYY'), 
-        categories: ['Student life'],
-        link: '#',
-        image: 'theme_hint_1.png'
-
-    }, 
-    {
-        title: 'What is frosh?',
-        date: moment().format('MMMM DD, YYYY'), 
-        categories: ['Student life'],
-        link: '#',
-        image: 'theme_hint_1.png'
-
-    }, 
-
+    }
 
 ]

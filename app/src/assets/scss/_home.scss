@@ -10,6 +10,7 @@
     line-height: 1.45;
     position: relative ;
     text-align:left;
+   
 
 
     .engfrosh{
@@ -87,7 +88,7 @@
         text-align: left;
         font-family: 'Staatliches', cursive;
         width: 100%;
-        background-image: url(../images/sky.jpg);
+        background-image: url(../images/redclouds.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -185,7 +186,7 @@
     }
         .hotspot{
             
-            background-image: url(../images/sky.jpg);
+            background-image: url(../images/redclouds.jpg);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -202,7 +203,7 @@
                 }
         }
         .blog{
-            background-image: url(../images/sky.jpg);
+            background-image: url(../images/redclouds.jpg);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -237,7 +238,7 @@
                 
 
             }
-            .bloglink:hover { color: #aa4a40; }
+            .bloglink:hover { color: $text-link; }
             
          
         }

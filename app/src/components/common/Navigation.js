@@ -60,6 +60,9 @@ links:{
   register:{
     color: 'white',
     backgroundColor : "#aa4a40",
+    '&:hover': {
+      color: "#aa4a40"
+  }
   },
  
 }));

@@ -1,7 +1,7 @@
 
 * {
 	margin: 0;
-	
+
 	box-sizing: border-box;
 }
 
@@ -103,8 +103,9 @@ code {
 	opacity: 1;
 }
 .sponsor{
-	position: absolute;
-	top:2860px;
+	position: relative;
+    clear: both;
+
 	text-align: center;
 	font-family: 'Staatliches', cursive;
 	width: 100%;

@@ -95,7 +95,7 @@ function Faq() {
           },
           {
             question: 'Will there be any in-person events during the 2020 fall semester?',
-            answer: 'We are hoping to host in-person events during the fall semester, with that said they will only take place if and when governement regulations allow them and if they can be done safely',
+            answer: 'We are hoping to host in-person events during the fall semester, with that said they will only take place if and when governement regulations allow them and if they can be done safely.',
             open: false
           },
           {

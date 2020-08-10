@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS blog_post_comments(
     ON UPDATE CASCADE, 
     CONSTRAINT fk_bpcpost FOREIGN KEY (post_id)
     REFERENCES blog_posts(id)
-    ON DELETE CASCADE 
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 
 )
