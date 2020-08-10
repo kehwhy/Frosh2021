@@ -2,12 +2,6 @@ import React from 'react'
 
 
 export default function resources() {
-    return<div>
-    <div>Login</div>
-    <div>Login</div><div>Login</div>
-    <div>Login</div><div>Login</div><div>Login</div><div>Login</div><div>Login</div><div>Login</div>
-    <div>Login</div><div>Login</div><div>Login</div>
-    <div>Login</div><div>Login</div>
-    </div>
+    return
    
 }
