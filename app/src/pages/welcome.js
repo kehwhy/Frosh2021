@@ -20,7 +20,7 @@ export default function Welcome() {
         <br></br>
         <img src={profilepic} alt='logo'/> <a className="author"> Coords</a>
         <p className="date">August 10th, 2020</p>
-        <img src={header}></img>
+        <img src={header} alt="logo"></img>
         <p className="article">
         <h2>To the Engineering Incoming Class of 2020,</h2> <br></br> 
 

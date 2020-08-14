@@ -40,8 +40,8 @@ export default function PostGrid ({posts}){
                         <TagRow tags={post.categories} />
                         <h2> {post.title}</h2>
                         <p className="author-text">
-                            <span>
-                                By: <Link to={`/authors/${post.author}`}> {post.author} </Link>
+                            <span style={{color: "#2997ff"}}>
+                                By: {post.author} 
                             </span>
                             <span>
                                 <p className="description-text">

@@ -131,11 +131,8 @@ function Faq() {
     <div>
      
         <div className="faqs">
-        <h1 className="questions">QUESTIONS?
-   
-
-        </h1>
-        <a className="answers">We got answers.</a>
+        <p className="questions">QUESTIONS?</p>
+        <p className="answers">We got answers.</p>
         {faqs.map((faq, i) => (
           <FAQ faq={faq} index={i} toggleFAQ={toggleFAQ} />
         ))}

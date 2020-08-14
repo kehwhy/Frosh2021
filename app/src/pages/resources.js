@@ -1,5 +1,4 @@
-import React , { useState } from 'react'
-import FAQ from '../components/common/FAQ.js'
+import React  from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faYoutube,
@@ -33,7 +32,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    padding:20,
     paragraph:{
       fontweight:200,
       fontSize:20,
@@ -56,10 +54,10 @@ function Resources() {
     <div>
      
         <div className="faqs">
-        <h1 className="questions">RESOURCES
+        <p className="questions">RESOURCES
    
 
-        </h1>
+        </p>
        
       </div>
       <div className={classes.root}>
@@ -69,7 +67,7 @@ function Resources() {
           <Paper className={classes.paper}>
               <img src={Drivesafe} alt="logo"/>
               <h2 className={classes.paragraph}>Drivesafe <br></br>(514) 398-8040</h2>
-              <p>This student-run service of the Students’ Society of McGill University (SSMU) drives students safely anywhere on the island of Montreal for free. Don’t hesitate to give them a call during Frosh if you are looking for a safe way to get home! Leaders and staff can also call them for you at night events. For more information, check out their <a href="https://drivesafe.ssmu.ca/">website!</a></p>
+              <p >This student-run service of the Students’ Society of McGill University (SSMU) drives students safely anywhere on the island of Montreal for free. Don’t hesitate to give them a call during Frosh if you are looking for a safe way to get home! Leaders and staff can also call them for you at night events. For more information, check out their <a href="https://drivesafe.ssmu.ca/">website!</a></p>
           </Paper>
         </Grid>
         <Grid item xs={3}>

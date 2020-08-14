@@ -1,7 +1,7 @@
 import React from 'react'
 import {PostMasonry, MasonryPost, PostGrid} from '../components/common'
 import trending from '../assets/mocks/trending' 
-import featured from '../assets/mocks/trending' 
+import featured from '../assets/mocks/featured' 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faYoutube,
@@ -43,31 +43,29 @@ const mergeStyles = function (posts, config){
     })
 }
 
-const recentPosts = [... trending, ...featured, ...featured]
+const recentPosts = [...trending,...featured]
 mergeStyles(trending, trendingConfig)
 mergeStyles(featured, featuredConfig)
 
-const lastPost = featured.pop()
+
 
 export default function Blog() {
     return <main className="blog">
     <section className="container home"> 
     <div className = "row-top"> 
         <section className= "featured-posts-container">
-        <PostMasonry posts = {featured} columns= {2} tagsOnTop={true}/>
-        <MasonryPost post={lastPost}  tagsOnTop={true}/>
+        <PostMasonry posts = {trending} columns= {2} tagsOnTop={true}/>
         </section> 
      </div>
      </section>
     <section className="container home"> 
     <div className = "row"> 
         <h1>Recent Posts</h1>
-        <PostGrid posts = {recentPosts}/>
+        <PostGrid posts = {featured}/>
     </div>
     </section>
         <section className="container home"> 
         <div className = "row"> 
-        <PostMasonry posts = {trending} columns={3}/>
     </div>
     </section>
 
