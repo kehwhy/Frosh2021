@@ -33,11 +33,13 @@ to McGill and the city of Montreal
         </h1>
         <a className="subtitle">This article was written for the <a href="https://ledger.mcgilleus.ca">Plumber's Ledger </a></a>
         <br></br>
-        <img src={profilepic} alt='logo'/> <a className="author">Shafaq Nami</a>
+        <img src={profilepic} className="profile" alt='logo'/> <a className="author">Shafaq Nami</a>
         <p className="date">August 13th, 2020</p>
         <img src={header} alt="logo"></img>
         <br></br><br></br>
-        <iframe src={mtltip} paddingLeft="20" alignSelf = "center" width="100%" height="700px" frameBorder='0' border="0"></iframe>
+        <div className="hide-small"><iframe src={mtltip} paddingLeft="20" alignSelf = "center" width="100%" height="700px" frameBorder='0' border="0"></iframe></div>
+        <div className="show-small">Oops your device doesn't support PDFs! Check out our website on a larger device :)</div>
+        
        
 
         

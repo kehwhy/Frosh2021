@@ -16,9 +16,9 @@ export default function Welcome() {
    
 
         </h1>
-        <a className="subtitle">We'll be publishing more articles as we know more!</a>
+        <a className="subtitle">We'll be publishing more articles as we learn more!</a>
         <br></br>
-        <img src={profilepic} alt='logo'/> <a className="author"> Coords</a>
+        <img src={profilepic} className="profile" alt='logo'/> <a className="author"> Coords</a>
         <p className="date">August 10th, 2020</p>
         <img src={header} alt="logo"></img>
         <p className="article">

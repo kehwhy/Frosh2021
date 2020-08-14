@@ -23,7 +23,7 @@ code {
 
 .title {
 	color:black;
-	font-size: 40px;
+	font-size: 2.5vw;
 	font-weight: 400;
 	text-align: center;
 	color:rgb(102,102,102);
@@ -34,63 +34,105 @@ code {
 
 .subtitle{
 	color:black;
-	font-size: 18px;
-	padding-left: 170px;
+	font-size: 1.5vw;
+	padding-left: 8em;
 	color: rgb(193,193,193);
 }
 
 .welcome {
 	width: 100%;
-	max-width: 768px;
+	max-width: 60em;
 	margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 10.5em;
+    @media only screen and (max-width: 800px){
+        padding-top: 7em;
+      }
 
     img{
-        padding-left: 5px;
+        padding-left: 4em;
+        @media only screen and (max-width: 800px){
+            width:80%
+          }
     }
-    
-	
+    .profile{
+         padding-left: 4em;
+        @media only screen and (max-width: 800px){
+            width:15%;
+            padding-left: 4em;
+          }
+    }
+    .hide-small {
+        display: block
+    }
+    .show-small {
+        display: none
+    }
+	@media screen and (max-width: 725px) {
+        .hide-small {
+            display: none!important;
+        }
+        .show-small {
+            display: block!important;
+            font-size: 3vw;
+            padding-left: 4.5em;
+        }
+    }
 	
 }
+
+
+
 .author{
       
-    padding-left: 10px;
+    padding-left: 0.1em;
     color: #6E3335;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .date{
-    font-size: 18px;
-    padding-top: 20px;
+    font-size: 1.3vw;
+    padding-top: 0.2em;
+    padding-left: 3.5em;
     color: rgb(197, 197, 197);
+    @media only screen and (max-width: 800px){
+        padding-left: 9.5em;
+      }  
 }
 .article{
-    padding-top: 50px;
-    font-size: 15px;
+    padding-top: 0.5em;
+    font-size: 1vw;
+    padding-left: 1em;
+    @media only screen and (max-width: 800px){
+        font-size: 2.3vw;
+      }   
 }
 
 .footing{
     position: absolute;
-
+    top:120em;
     text-align: center;
     font-family: 'Staatliches', cursive;
     width: 100%;
     margin-bottom: 0px;
     padding-bottom: 0px;
+
+    @media only screen and (max-width: 800px){
+      top:85em;
+    }
     a{
-    font-size: 170px;
-    padding-left: 50px;
-    letter-spacing: 80px;
+    font-size: 12vw;
+    padding-left: 0.5em;
     color:#ecf0f1;
     }
 .footerend  {
 
-align-items:center;
-    font-size: 12px;
+    width: 100%;
+    align-items:center;
+    font-size: 0.8vw;
     position: relative;
     font-family: 'Helvetica', sans-serif;
     text-align: justify;
-    padding-right: 50px;
+    padding-right: 0.5em;
     text-align: center;
     .social-container{
         position: absolute;
@@ -99,21 +141,21 @@ align-items:center;
        position: absolute;
        font-weight: bold;
        color: black;
-       padding-left: 900px;
-       padding-top: 40px;
-       font-size: 20px;
+       padding-left: 48em;
+       padding-top: 2em;
+       font-size: 1.5vw;
    }
    .p1{
        position: absolute;
-       padding-left: 800px;
-       padding-top: 85px;
-       font-size: 15px;
+       padding-left: 75em;
+       padding-top: 8em;
+       font-size: 0.9vw;
 
    }
    .p2{
     position: absolute;
-    padding-left: 650px;
-    padding-top: 220px;
+    padding-left: 60em;
+    padding-top: 20em;
     color: #bdc3c7;
        
    }

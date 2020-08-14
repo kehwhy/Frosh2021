@@ -28,26 +28,30 @@
 
 .ending{
     position: absolute;
-
+    top:130em;
     text-align: center;
     font-family: 'Staatliches', cursive;
     width: 100%;
     margin-bottom: 0px;
     padding-bottom: 0px;
+
+    @media only screen and (max-width: 800px){
+      top:265em;
+    }
     a{
-    font-size: 170px;
-    padding-left: 50px;
-    letter-spacing: 80px;
+    font-size: 12vw;
+    padding-left: 0.5em;
     color:#ecf0f1;
     }
 .footerend  {
+
     width: 100%;
     align-items:center;
-    font-size: 12px;
+    font-size: 0.8vw;
     position: relative;
     font-family: 'Helvetica', sans-serif;
     text-align: justify;
-    padding-right: 50px;
+    padding-right: 0.5em;
     text-align: center;
     .social-container{
         position: absolute;
@@ -56,21 +60,21 @@
        position: absolute;
        font-weight: bold;
        color: black;
-       padding-left: 900px;
-       padding-top: 40px;
-       font-size: 20px;
+       padding-left: 48em;
+       padding-top: 2em;
+       font-size: 1.5vw;
    }
    .p1{
        position: absolute;
-       padding-left: 800px;
-       padding-top: 85px;
-       font-size: 15px;
+       padding-left: 75em;
+       padding-top: 8em;
+       font-size: 0.9vw;
 
    }
    .p2{
     position: absolute;
-    padding-left: 650px;
-    padding-top: 220px;
+    padding-left: 60em;
+    padding-top: 20em;
     color: #bdc3c7;
        
    }

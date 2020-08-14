@@ -66,9 +66,12 @@ const styleSheet = {
    register:{
     color: 'white',
     backgroundColor : "#aa4a40",
+    
     '&:hover': {
-      color: "#aa4a40"
-  }}
+      backgroundColor: "white",
+   }
+  }
+
   
 }
 
@@ -156,6 +159,7 @@ class ResAppBar extends Component{
             {navLinks.map((link,index) =>(
                <ListItem key = {1} button divider><Link to={link.path} className={styleSheet.links}>{link.title}</Link> </ListItem>
                ))}
+                 <ListItem key = {1} button divider ><a href="https://mcgill-orientation-week.eventus.io">Register now!</a></ListItem>
              </List>
 
          </div>
@@ -183,7 +187,7 @@ class ResAppBar extends Component{
              
                         
             </Button>))}
-            <Button  className={classes.register}>Register now!</Button>
+            <Button  className={classes.register}><a className={classes.register} href="https://mcgill-orientation-week.eventus.io">Register now!</a></Button>
               </div>
 
         </Toolbar>

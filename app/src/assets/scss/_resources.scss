@@ -19,9 +19,25 @@ code {
     monospace;
 }
 
+.hide-small2 {
+  display: block
+}
+.show-small2 {
+  display: none
+}
+@media screen and (max-width: 725px) {
+  .hide-small2 {
+      display: none!important;
+  }
+  .show-small2 {
+      display: block!important;
+      font-size: 3vw;
+      padding-left: 0;
+  }
+}
 
 
-.questions {
+.questions2 {
 	color:black;
 	font-size: 100px;
 	font-weight: 300;
@@ -33,7 +49,7 @@ code {
 	
 }
 
-.answers{
+.answers2{
 	color:rgb(192, 192, 192);
 	font-size: 25px;
 	padding-left: 285px;
@@ -102,67 +118,67 @@ code {
 	max-height: 1000px;
 	opacity: 1;
 }
-.sponsor{
-	position: relative;
-    clear: both;
 
-	text-align: center;
-	font-family: 'Staatliches', cursive;
-	width: 100%;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-	a{
-        font-size: 170px;
-        padding-left: 50px;
-        letter-spacing: 80px;
-        color:#ecf0f1;
+.finish{
+    position: absolute;
+    top:190em;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 
-        
+    @media only screen and (max-width: 800px){
+      top:465em;
+    }
+    a{
+    font-size: 12vw;
+    padding-left: 0.5em;
+    color:#ecf0f1;
+    }
+.footerend  {
+
+    width: 100%;
+    align-items:center;
+    font-size: 0.8vw;
+    position: relative;
+    font-family: 'Helvetica', sans-serif;
+    text-align: justify;
+    padding-right: 0.5em;
+    text-align: center;
+    .social-container{
+        position: absolute;
+    }
+   h2{
+       position: absolute;
+       font-weight: bold;
+       color: black;
+       padding-left: 48em;
+       padding-top: 2em;
+       font-size: 1.5vw;
+   }
+   .p1{
+       position: absolute;
+       padding-left: 75em;
+       padding-top: 8em;
+       font-size: 0.9vw;
+
+   }
+   .p2{
+    position: absolute;
+    padding-left: 60em;
+    padding-top: 20em;
+    color: #bdc3c7;
+       
+   }
+
+    .copyright{
+    left:570px;
+    position: absolute;
+    padding-top: 70px;
+    
     }
 
-	.footerend  {
-		width: 100%;
-		align-items:center;
-		font-size: 12px;
-		position: relative;
-		font-family: 'Helvetica', sans-serif;
-		text-align: justify;
-		padding-right: 50px;
-		text-align: center;
-		.social-container{
-			position: absolute;
-		}
-	   h2{
-		   position: absolute;
-		   font-weight: bold;
-		   color: black;
-		   padding-left: 900px;
-		   padding-top: 40px;
-		   font-size: 20px;
-	   }
-	   .p1{
-		   position: absolute;
-		   padding-left: 800px;
-		   padding-top: 85px;
-		   font-size: 15px;
-
-	   }
-	   .p2{
-		position: absolute;
-		padding-left: 650px;
-		padding-top: 220px;
-		color: #bdc3c7;
-		   
-	   }
-
-		.copyright{
-		left:570px;
-		position: absolute;
-		padding-top: 70px;
-		
-		}
-   
-	}
-}
+}}
 
 	
