@@ -1,9 +1,16 @@
 import React from 'react';
 import Navigation from './components/common/Navigation'
+import Footer from './components/common/Footer'
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import PageRenderer from './page-renderer'
 import Resources from './pages/resources'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
 
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
 function App() {
   
   
@@ -12,6 +19,7 @@ function App() {
   return (
     <Router>
     <div className="App">
+    
       <Navigation/>
       <Switch>
       <Route path="/resources" component={Resources}/>
@@ -20,7 +28,11 @@ function App() {
         <Route path="/" render={() => <Redirect to="/home" />}/>
         <Route component={() => 404} />
       </Switch>
+      <Footer/>
+     
+
     </div>
+
     </Router>
   );
 }
