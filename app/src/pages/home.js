@@ -28,10 +28,7 @@ AOS.init({
 
       
        <div className="part1" >
-       <p className="title" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">2020 ENG FROSH</p>
-                </div>
+       </div>
               
          </section>
     
@@ -40,8 +37,7 @@ AOS.init({
 
     <br class="clear" />
     <div className="container home"> 
-    <div className="genInfo" data-aos="fade-up"
-     data-aos-duration="3000">
+    <div className="genInfo">
     <div className="row">
         <div className="col-xs-2 col-xs-offset-4">
         <h2>WHAT IS FROSH</h2>
@@ -55,8 +51,7 @@ AOS.init({
 
    
     <div className="container home"> 
-    <div className="theme reveal" data-aos="fade-up"
-     data-aos-duration="3000">
+    <div className="theme reveal">
      
     <iframe width="700" height="320" src="https://www.youtube.com/embed/8Amqt58t0Oc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -66,8 +61,7 @@ AOS.init({
 
     <br class="clear" />
     <section className="container home"> 
-    <div className="check" data-aos="fade-up"
-     data-aos-duration="3000">
+    <div className="check">
        <li className="bloglink"><Link to="/blog" className="bloglink">CHECK OUT OUR BLOG</Link></li>
                 <p className="paragraph">It's filled with updates on online frosh, winter frosh and articles curated for first year students!</p>
                 </div>
@@ -76,8 +70,7 @@ AOS.init({
 
     <br class="clear" />
     <div className="container home"> 
-    <div className="sponsors" data-aos="fade-up"
-     data-aos-duration="3000">
+    <div className="sponsors">
     <img src={sponsors}  alt="logo"  />
         
            
@@ -85,8 +78,7 @@ AOS.init({
     </div>
     
     <br class="clear" />
-    <section className="container home" data-aos="fade-up"
-     data-aos-duration="3000"> 
+    <section className="container home" > 
        
             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1R93iBs8WmKtVZuMhj6d02k8jqC4VdENA" width="640" height="480" frameborder="0"></iframe>
     </section>
