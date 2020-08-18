@@ -4,6 +4,7 @@ import Footer from './components/common/footer.js'
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import PageRenderer from './page-renderer'
 import Resources from './pages/resources'
+import { HashRouter } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faYoutube,
@@ -17,7 +18,7 @@ function App() {
   
 
   return (
-    <Router>
+    <HashRouter>
     <div className="App">
     
       <Navigation/>
@@ -33,7 +34,7 @@ function App() {
 
     </div>
 
-    </Router>
+    </HashRouter>
   );
 }
 
