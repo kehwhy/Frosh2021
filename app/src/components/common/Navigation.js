@@ -6,7 +6,7 @@ import {
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import Button from '@material-ui/core/Button';
-import title from '../../assets/images/frosh2020-logoforwebsite2.svg'
+import title from '../../assets/images/frosh2020-logoforwebsite2-01.png'
 
 import {Link} from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles';
@@ -137,7 +137,7 @@ class ResAppBar extends Component{
                 onClick={()=>{this.setState({drawer:true})}} />
 
             
-              <Typography color="inherit" variant = "headline"><img src={title} alt="logo" style={{paddingTop:0, margin:0}}/></Typography>
+              <Typography color="inherit" variant = "headline"></Typography>
             </Grid>
           </Toolbar>
         </AppBar>
@@ -175,7 +175,7 @@ class ResAppBar extends Component{
     return (
       <AppBar position="fixed"  style={{flexGrow:0, margin: 0, padding: 0, background:'white', boxShadow: 'blur', height:60}}>
         <Toolbar>
-        <img src={title} alt="logo" className={classes.logo}/>
+       
             <div className={classes.buttons}>
             
             {navLinks.map((link,index) =>(

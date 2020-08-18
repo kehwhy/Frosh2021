@@ -1,413 +1,212 @@
-
-.home{
-    overflow-x: visible;
+img{
+    width:100%;
+    margin:0;
+    padding:0;
 }
-.home-title{
-    
-    padding-top: 5.5%;
-    padding-left: 0px;
-    font-family: 'Staatliches', cursive;
-    line-height: 1.45;
-    position: relative ;
-    text-align:left;
-   
-
-
-    .engfrosh{
-        font-size: 170px;
-        letter-spacing: 1.1em;
-        color: white;
-        z-index: 2;
-        position: absolute;
-        top: 0.5em;
-        left: 1em;
-
-        @media only screen and (max-width: 1000px) {
-            left: 1em;
-            top:1.5em;
-          }
-    }
-    .engfrosh12{
-        font-size: 170px;
-        letter-spacing: 1.1em;
-        color: black;
-        z-index: 2;
-        position: absolute;
-        left: 3.1em;
-    }
-    .engfrosh2{
-        font-size: 170px;
-        letter-spacing: 1.1em;
-        color: white;
-        z-index: 2;
-        position: absolute;
-        top: 1.9em;
-        left: 1em;
-        @media only screen and (max-width: 1000px) {
-            left: 1em;
-            top:3em;
-          }
-    }
-    .engfrosh22{
-        font-size: 170px;
-        letter-spacing: 1.1em;
-        color: black;
-        z-index: 2;
-        position: absolute;
-        top: 0em;
-        left: 3.1em;
-    }
-    .engfrosh3{
-        font-size: 170px;
-        letter-spacing: 1.1em;
-        color: black;
-        z-index: 2;
-        position: absolute;
-        top: 3.3em;
-        left: 1em;
-        @media only screen and (max-width: 1000px) {
-            left: 1em;
-            top:4.5em;
-            
-          }
-
-    }
-    .engfrosh32{
-        font-size: 170px;
-        letter-spacing: 0.8em;
-        color: white;
-        z-index: 2;
-        position: absolute;
-        top: 0px;
-        left: 4.4em;
-     
-   
-  
-    }
-
-
-    .backImage{
-        z-index: 1;
-        left:8em;
-        position: absolute;
-        width: 35%;
-        height: auto;
-        @media only screen and (max-width: 1000px) {
-            left: 2em;
-            top:5em;
-            width: 36%;
-     
-          }
-
-    }
-    .backImage2{
-        z-index: 1;
-        top:25em;
-        left:58em;
-        position: absolute;
-        width: 35%;
-        height: auto;
-        @media only screen and (max-width: 800px) {
-            left: 17em;
-            top:10em;
-            width:35%
-       
-          }
-    }
-
-    .genInfo{
-        position: absolute;
-        top:70em;
-        text-align: left;
-        font-family: 'Staatliches', cursive;
-        width: 100%;
-        background-image: url(../images/redclouds.jpg);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        @media only screen and (max-width: 800px) {
-    
-            top:22em;
-            width:100%
-       
-          }
-
-    
-       .a1{
-           text-align: left;
-           font-size: 7vw;
-           color: white;
-           padding-left: 0.5em;
-           letter-spacing: 0.42em;
-          
-       }
-       .a2{
-        text-align: center;
-        font-size: 7vw;
-        color: white;
-        padding-left: 1.5em;
-        letter-spacing: 0.2em;
-
-       
-    }
-    .a3{
-        text-align: left;
-        font-size: 7vw;
-        color: white;
-        padding-left: 0.5em;
-        letter-spacing: 0.2em;
-       
-    }
-
-       .paragraph{
-           position: absolute;
-           top: 4em;
-           left: 20em;
-           font-size: 1.5vw;
-           color:white;
-           font-family: 'Helvetica', sans-serif;
-           text-align: justify;
-           padding-right: 0.8em;
-
-       }
-    }
-
-    .themereveal{
-        position: relative;
-        top:82em;
-        text-align: center;
-        width: 100%;
-        @media only screen and (max-width: 800px) {
-    
-            top:23em;
-   
-       
-          }
-
-        .theme{
-        font-family: 'Staatliches', cursive;
-        font-size: 40vw;
-        letter-spacing: 0.05em;
-        position: absolute;
-        color:#252b2c;
-        padding-left: 0.05em;
-        z-index: 1;
-        color:rgb(242, 242, 245)
-        }
-        iframe{
-        top:19em;
-           right:28em;
-            z-index:2;
-            position: absolute;
-            @media only screen and (max-width: 800px) {
-    
-                top:4.3em;
-                width:23em;
-                height:12em;
-                right:5em;
-                left:2em
-                
-
-       
-           
-              }
-        }
-       
-    }
-
-    
-
-
-    .sponsor{
-        position: absolute;
-        top:140em;
-        text-align: center;
-        font-family: 'Staatliches', cursive;
-        width: 100%;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-        @media only screen and (max-width: 800px) {
-    
-            top:46em
-            
-
-   
-       
-          }
-
-        .a{
-        font-size: 12vw;
-        padding-left: 0.5em;
-        letter-spacing: 0.5em;
-        color:#ecf0f1;
-        z-index: 1; 
-        color: rgb(242, 242, 245);
-        margin: 0;
-    }
-    img{
-        position: absolute;
-
-        z-index:2;
-        top:28em;
-        right:17em;
-        @media only screen and (max-width: 800px) {
-        width:75%;
-        top:6.5em;
-        right:3.5em;
-       
-          }
-  
-
-    }
-        .hotspot{
-            
-            background-image: url(../images/redclouds.jpg);
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            padding-bottom: 0.3em;
-            .hotspottitle{
-            color: white;
-         
-            //letter-spacing: 20px;
-
-            font-family: 'Staatliches', cursive;
-            font-size: 10vw;
-            padding-bottom: 0;
-            margin: 0;
-
-                }
-                iframe{
-                    @media only screen and (max-width: 800px) {
-                        width:75%;
-                       
-                       
-                          }
-                }
-        }
-        .blog{
-            background-image: url(../images/redclouds.jpg);
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            text-align: center;
-            list-style-type: none;
-            .check{
-            color: white;
-           
-            letter-spacing: 0.1em;
-            font-family: 'Staatliches', cursive;
-            font-size: 5.5vw;
-            padding-top: 0.2em;
-
-            .bloglink{
-                text-decoration: none;
-                padding: 0;
-                margin:0;
-                cursor:pointer;
-                font-size:5.5vw;
-                padding-left: 0.3em;
-                letter-spacing: 0.2em;
-
-                
-
-            }
-            .bloglink:hover { color: $text-link; }
-            
-
-           
-            }
-            .paragraph{
-
-           font-size: 1.8vw;
-           padding-bottom: 0.6em;
-           color:white;
-           font-family: 'Helvetica', sans-serif;
-           text-align: justify;
-           
-           text-align: center;
-       
-              
-            }
-            
-         
-        }
-       
-
-
-        
-
-    
-}
-
-        
-
-        
-}
-
-
-
-.footers{
-    position: absolute;
-    top:273em;
-    text-align: center;
-    font-family: 'Staatliches', cursive;
+iframe{
     width: 100%;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin:0;
+    padding:0;
+}
 
-    @media only screen and (max-width: 800px){
-      top:106em;
-    }
-    a{
-    font-size: 12vw;
-    padding-left: 0.5em;
-    color:#ecf0f1;
-    }
-.footerend  {
 
-    width: 100%;
-    align-items:center;
-    font-size: 0.8vw;
-    position: relative;
-    font-family: 'Helvetica', sans-serif;
-    text-align: justify;
-    padding-right: 0.5em;
-    text-align: center;
-    .social-container{
-        position: absolute;
-    }
-   h2{
-       position: absolute;
-       font-weight: bold;
-       color: black;
-       padding-left: 48em;
-       padding-top: 2em;
-       font-size: 1.5vw;
-   }
-   .p1{
-       position: absolute;
-       padding-left: 75em;
-       padding-top: 8em;
-       font-size: 0.9vw;
 
-   }
-   .p2{
-    position: absolute;
-    padding-left: 60em;
-    padding-top: 20em;
-    color: #bdc3c7;
-       
-   }
+.clear {
+    clear:both;
+    line-height:0;
+}
 
-    .copyright{
-    left:570px;
-    position: absolute;
-    padding-top: 70px;
+.part1{
+  width:100%;
+
+  background-image: url(../images/background-first.svg);
+  
+height:800px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 0;
+ 
+.title{
+
+  
+  font-size:10vw;
+  letter-spacing: 0.2em;
+  color:white;
+  font-family: 'Staatliches', cursive;
+  padding: 0;
+  margin:0;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(0,0,0);
+padding-top: 200px;
+@media only screen and (min-width: 1700px) {
     
-    }
+  font-size:7.5vw
+
+}
+@media only screen and (min-width: 2000px) {
+    
+  font-size:5.5vw
+
+}
+
+@media only screen and (min-width: 3000px) {
+    
+  font-size:3.5vw
+
+}
+@media only screen and (min-width: 4000px) {
+    
+  font-size:2.5vw
+
+}
+
+@media only screen and (min-width: 6000px) {
+    
+  font-size:1.5vw
+
+}
 
 }}
+
+  
+
+
+
+
+
+
+        .genInfo{
+      z-index: 2;
+          background-image: url(../images/redclouds.jpg);
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          text-align: center;
+          list-style-type: none;
+          h2{
+            font-size:5.5vw;
+        
+            letter-spacing: 0.2em;
+            color:white;
+            font-family: 'Staatliches', cursive;
+            padding: 0;
+            margin:0;
+          }
+          p{
+            font-size: 1.3vw;
+            padding-bottom: 0.6em;
+            color:white;
+            font-family: 'Helvetica', sans-serif;
+            text-align: justify;
+            
+            
+          }
+      
+         
+      }
+
+
+.check{
+  z-index: 2;
+  background-image: url(../images/redclouds.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  list-style-type: none;
+
+  h2{
+    font-size:5.5vw;
+    padding: 0;
+    margin:0;
+    letter-spacing: 0.2em;
+    color:white;
+    font-family: 'Staatliches', cursive;
+
+  }
+  .bloglink{color:white;
+    text-decoration: none;
+    padding: 0;
+    margin:0;
+    cursor:pointer;
+    font-size:5.5vw;
+    
+    letter-spacing: 0.2em;
+    font-family: 'Staatliches', cursive;
+    .bloglink:hover { color: $text-link }
+
+  }
+  p{
+    font-size: 1.3vw;
+    padding-bottom: 0.6em;
+    color:white;
+    font-family: 'Helvetica', sans-serif;
+    text-align: justify;
+    
+    text-align: center;
+  }
+
+}
+
+
+.check2{
+  background-image: url(../images/background-first.svg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  list-style-type: none;
+
+  h2{
+    font-size:5.5vw;
+    padding: 0;
+    margin:0;
+    letter-spacing: 0.2em;
+    color:white;
+    font-family: 'Staatliches', cursive;
+
+  }
+  .bloglink{color:white;
+    text-decoration: none;
+    padding: 0;
+    margin:0;
+    cursor:pointer;
+    font-size:5.5vw;
+    
+    letter-spacing: 0.2em;
+    font-family: 'Staatliches', cursive;
+    .bloglink:hover { color: $text-link }
+
+  }
+  p{
+    font-size: 1.3vw;
+    padding-bottom: 0.6em;
+    color:white;
+    font-family: 'Helvetica', sans-serif;
+    text-align: justify;
+    
+    text-align: center;
+  }
+
+}
+  
+ .sponsors{
+  z-index: 2;
+  p{
+    font-family: 'Staatliches', cursive;
+      top:30em;
+      left: 0.5em;
+      letter-spacing: 1.8em;
+      font-size:10vw;
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      color:white;
+  
+  }
+ }

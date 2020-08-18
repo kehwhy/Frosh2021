@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from './components/common/Navigation'
-import Footer from './components/common/Footer'
+import Footer from './components/common/footer.js'
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import PageRenderer from './page-renderer'
 import Resources from './pages/resources'
