@@ -98,16 +98,17 @@ function Faq() {
             answer: 'We may possibly host in-person events during the fall semester, with that said they will only take place if and when governement regulations allow them and if they can be done safely.',
             open: false
           },
-          {
-            question: 'Will there be a winter frosh?',
-            answer: 'There have been discussions about hosting an in-person frosh at the beginning of the winter semester, the event is not confirmed yet and will only take place if and when government and university regulations allow it.',
-            open: false
-          },
-          {
-            question: 'Where can I learn more about groups and clubs on campus?',
-            answer: "We've put together an involvement video serie which showcases most clubs, committees and design team that you can join in the EUS, the playlist can be found on our Youtube channel (link in the footer) and on the EUS website.",
-            open: false
-          },
+         {
+          question: 'Will there be a winter frosh?',
+          answer: 'There have been discussions about hosting an in-person frosh at the beginning of the winter semester, the event is not confirmed yet and will only take place if and when government and university regulations allow it.',
+          open: false
+        },
+        {
+          question: 'Where can I learn more about groups and clubs on campus?',
+          answer: "We've put together an involvement video serie which showcases most clubs, committees and design team that you can join in the EUS, the playlist can be found on our Youtube channel (link in the footer) and on the EUS website.",
+          open: false
+        },
+          
 
         
     ]);

@@ -28,13 +28,15 @@ AOS.init({
 
       
        <div className="part1" >
+        <img src={background} alt="logo"/>
+
        </div>
               
          </section>
     
        
          
-
+         <br class="clear" />
     <br class="clear" />
     <div className="container home"> 
     <div className="genInfo">
@@ -58,8 +60,9 @@ AOS.init({
            
             
     </div>
-
+ 
     <br class="clear" />
+
     <section className="container home"> 
     <div className="check">
        <li className="bloglink"><Link to="/blog" className="bloglink">CHECK OUT OUR BLOG</Link></li>

@@ -53,14 +53,17 @@ code {
         @media only screen and (max-width: 800px){
             width:80%
           }
+         
     }
     .profile{
          padding-left: 4em;
+         width:10%;
         @media only screen and (max-width: 800px){
             width:15%;
             padding-left: 4em;
           }
     }
+    
     .hide-small {
         display: block
     }
