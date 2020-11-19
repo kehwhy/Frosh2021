@@ -23,23 +23,22 @@ AOS.init({
   })
 
     return (<main>
-    <section className="container home"> 
+    <div className="container home"> 
    
 
       
-       <div className="part1" >
+       <div className="soft aos-item" data-aos="zoom-out-down" data-aos-mirror="true" data-aos-easing="ease-in-sine"className="part1" >
         <img src={background} alt="logo"/>
 
        </div>
               
-         </section>
+         </div>
     
        
          
-         <br class="clear" />
-    <br class="clear" />
+        
     <div className="container home"> 
-    <div className="genInfo">
+    <div className="genInfo" data-aos="zoom-out-down" data-aos-mirror="true" data-aos-easing="ease-in-sine">
     <div className="row">
         <div className="col-xs-2 col-xs-offset-4">
         <h2>WHAT IS FROSH</h2>
