@@ -1,4 +1,4 @@
-
+@import url("./_font.scss");
 * {
 	margin: 0;
 	
@@ -11,7 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #EEE;
+  background-color: #FFF;
 }
 
 code {
@@ -23,11 +23,12 @@ code {
 
 .questions{
 	color:rgb(153, 153, 153);
-	font-size: 8vw;
+	font-size: 5vw;
 	font-weight: 300;
-	font-family: 'Staatliches', cursive;
+	font-family: 'Montserrat';
 	text-align: center;
 	padding: 0;
+  padding-top: 25px;
 	margin: 0;
 	
 }
@@ -35,7 +36,8 @@ code {
 .answers{
 	color:rgb(192, 192, 192);
 	font-size: 2vw;
-	padding-left: 9.2em;
+  text-align: center;
+  font-family: 'Montserrat';
 	@media only screen and (max-width: 800px){
 
 		padding-left: 20.5em;
@@ -48,8 +50,6 @@ code {
 	max-width: 768px;
 	margin: 0 auto;
 	padding-top: 5em;
-
-	
 	
 }
 
@@ -65,7 +65,7 @@ code {
 	position: relative;
 	font-size: 20px;
 	padding-right: 80px;
-
+  font-family: 'Montserrat';
 	transition: all 0.4s ease;
 }
 
@@ -105,64 +105,3 @@ code {
 	max-height: 1000px;
 	opacity: 1;
 }
-.end{
-    position: absolute;
-    top:135em;
-    text-align: center;
-    font-family: 'Staatliches', cursive;
-    width: 100%;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-
-    @media only screen and (max-width: 800px){
-      top:167em;
-    }
-    a{
-    font-size: 12vw;
-    padding-left: 0.5em;
-    color:#ecf0f1;
-    }
-.footerend  {
-
-    width: 100%;
-    align-items:center;
-    font-size: 0.8vw;
-    position: relative;
-    font-family: 'Helvetica', sans-serif;
-    text-align: justify;
-    padding-right: 0.5em;
-    text-align: center;
-    .social-container{
-        position: absolute;
-    }
-   h2{
-       position: absolute;
-       font-weight: bold;
-       color: black;
-       padding-left: 48em;
-       padding-top: 2em;
-       font-size: 1.5vw;
-   }
-   .p1{
-       position: absolute;
-       padding-left: 75em;
-       padding-top: 8em;
-       font-size: 0.9vw;
-
-   }
-   .p2{
-    position: absolute;
-    padding-left: 60em;
-    padding-top: 20em;
-    color: #bdc3c7;
-       
-   }
-
-    .copyright{
-    left:570px;
-    position: absolute;
-    padding-top: 70px;
-    
-    }
-
-}}

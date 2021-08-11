@@ -6,11 +6,12 @@ import {
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import Button from '@material-ui/core/Button';
-import title from '../../assets/images/frosh2020-logoforwebsite2-01.png'
+
+import logo from "../../assets/images/frosh2021logo.svg"
+import "../../assets/scss/_font.scss";
+import "../../assets/scss/_navigation.scss";
 
 import {Link} from 'react-router-dom'
-import { makeStyles } from '@material-ui/core/styles';
-
 
 const styleSheet = {
   root: {
@@ -32,40 +33,32 @@ const styleSheet = {
     color : "black",
     cursor : "pointer",
   },
-  logo:{
-    padding:0,
-    margin: 0
-
-  },
   list:{
 
 
   },buttons:{
     marginLeft:'auto',
-    color: 'black', 
-    
-   
-  
-  
+    color: 'black',
+    height: "100%",
   },
   button:{
     margin:11,
-    fontSize: 15,
-    
-  
-  
+    fontSize: "1.5vw",
   },
   links:{
-     
     color: 'black', 
     padding:0,
+    fontFamily: 'TopSecret',
+
     '&:hover': {
-      color: "#aa4a40",
+      color: "#be103f",
    }
   },
    register:{
     color: 'white',
     backgroundColor : "#aa4a40",
+    fontFamily: 'Montserrat',
+    fontSize: 24,
     
     '&:hover': {
       backgroundColor: "white",
@@ -83,21 +76,26 @@ const navLinks = [
       path: '/'
   },
   {
+    title: 'Schedule',
+    path: '/schedule',
+  },
+  {
+    title: 'Coordinators',
+    path: '/coordinators',
+  },
+  {
       title: "Blog",
       path: '/blog'
   }, 
   {
-      title: 'FAQ',
-      path :'/faq'
+    title: 'FAQ',
+    path :'/faq'
 
   },
   {
     title: 'Resources',
     path:'/resources'
   },
-  
-  
-
 ]
 
 
@@ -159,7 +157,7 @@ class ResAppBar extends Component{
             {navLinks.map((link,index) =>(
                <ListItem key = {1} button divider><Link to={link.path} className={styleSheet.links}>{link.title}</Link> </ListItem>
                ))}
-                 <ListItem key = {1} button divider ><a href="https://mcgill-orientation-week.eventus.io">Register now!</a></ListItem>
+                 {/* <ListItem key = {1} button divider ><a href="https://mcgill-orientation-week.eventus.io">Register now!</a></ListItem> */}
              </List>
 
          </div>
@@ -173,22 +171,20 @@ class ResAppBar extends Component{
   destroyDrawer(){
     const {classes} = this.props
     return (
-      <AppBar position="fixed"  style={{flexGrow:0, margin: 0, padding: 0, background:'white', boxShadow: 'blur', height:60}}>
+      <AppBar position="fixed"  style={{flexGrow:0, margin: 0, padding: 0, background:'white', boxShadow: 'blur', height:'5vw',}}>
         <Toolbar>
-       
+            <div className="logo">
+              <img className="logo-img" src={logo} alt="Frosh 2021:The Ultimate Heist logo"></img>
+            </div>
             <div className={classes.buttons}>
             
-            {navLinks.map((link,index) =>(
-                <Button className={classes.button}>
-                  
-
-                  <Link to={link.path} className={classes.links}>{link.title}</Link>
-                              
-             
-                        
-            </Button>))}
-            <Button  className={classes.register}><a className={classes.register} href="https://mcgill-orientation-week.eventus.io">Register now!</a></Button>
-              </div>
+              {navLinks.map((link,index) =>(
+                  <Button className={classes.button}>
+                    <Link to={link.path} className={classes.links}>{link.title}</Link>
+                  </Button>))}
+            
+              {/* <Button  className={classes.register}><a className={classes.register} href="https://mcgill-orientation-week.eventus.io">Register now!</a></Button> */}
+            </div>
 
         </Toolbar>
       </AppBar>

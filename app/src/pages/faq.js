@@ -18,18 +18,18 @@ function Faq() {
           },
           {
             question: 'When is Frosh?',
-            answer: 'Frosh takes place from August 27th - August 30th 2020. Frosh is one of the events of Orientation Week, which takes place from August 26th - August 30th and classes will begin on September 3rd',
+            answer: 'Frosh takes place from August 27th - August 30th 2020. Frosh is one of the events of Orientation Week, which takes place from August 26th - August 30th and classes will begin on September 1st.',
             open: false
           },
           {
             question: 'What happens during frosh?',
-            answer: 'Frosh is made up of a variety of social events, completely organized by students. The events of online frosh will be taking place on various platforms with a central one to guide you through. You’ll be attending all the events with your group of fellow engineers. For a full outline of what happens at each of our events, see the schedule on our social media and on the home page.',
+            answer: 'Frosh is made up of a variety of social events, completely organized by students. The events of hybrid frosh will be taking place both online via Discord, Twitch and Zoom and in-person in Montreal in the neighborhoods near McGill campus. You’ll be attending all the events with your group of fellow engineers lead by upper-year engineering students. For a full outline of what happens at each of our events, see the schedule on our social media and under the "Schedule" tab.',
             open: false
           },
           
           {
             question: 'How do I register?',
-            answer: 'Registration for all Froshes takes place through the same online system, which you can access through the “Register” button on this page. Registration is open up until the first day of Frosh (August 27th).',
+            answer: 'Registration for all Froshes takes place through the same online system, which you can access through the "Register" button on the home page. Registration is open up until the first day of Frosh (August 27th).',
             open: false
           },
           {
@@ -39,7 +39,7 @@ function Faq() {
           },
           {
             question: 'How much does Frosh cost?',
-            answer: 'Online frosh is completely free and other frosh-related events that may happen through the semester will vary in cost.',
+            answer: 'This year we have 2 ticket types: online tickets and hybrid tickets. With an online ticket you get access to all of our online events and some exciting Engineering frosh exclusive merchandise. With the hybrid ticket, you get access to all of the online events, exclusive merchandise as well as a number of in-person activities that will take place throughout Frosh.',
             open: false
           },
           {
@@ -54,7 +54,7 @@ function Faq() {
           },
           {
             question: 'I made a mistake on my registration, how can I correct it?',
-            answer: 'Send us an email to oweek@mcgilleus.ca at any time.',
+            answer: 'Send us an email to oweek@mcgilleus.ca at any time to correct or modify your registration.',
             open: false
           },
           
@@ -65,7 +65,7 @@ function Faq() {
           },
           {
             question: 'Who are Frosh Coordinators?',
-            answer: 'We are a group of 12 upper-year engineering students who spend their summer organizing the entirety of Frosh. We publicize Frosh to incoming students, find sponsorship,  come up with fun events, and hire Frosh Leaders and O-Staff.',
+            answer: 'We are a group of 11 upper-year engineering students who spend their summer organizing the entirety of Frosh. We publicize Frosh to incoming students, find sponsorship, come up with fun events, and hire and train Frosh Leaders and O-Staff.',
             open: false
           },
           {
@@ -75,12 +75,12 @@ function Faq() {
           },
           {
             question: 'Who are Froshies?',
-            answer: 'You! A “Froshie” is anyone who is a participant in Frosh.',
+            answer: 'You! A "Froshie" is anyone who is a participant in Frosh.',
             open: false
           },
           {
             question: 'Who can participate in Frosh?',
-            answer: 'Engineering Frosh is open to any student entering McGill for their first year of an undergraduate degree in Engineering or Architecture. Frosh welcomes students of all ages, but you only get one chance - you can’t participate in Frosh in any year after your first one (however, you can apply to be a Leader, O-Staff, or Coordinator!). If you are a transfer or exchange student coming to McGill for your first year in Engineering or Architecture, you are welcome to participate in Frosh. ',
+            answer: 'Engineering Frosh is open to any student entering McGill for their first year of an undergraduate degree in the faculty of Engineering, including Architecture. Frosh welcomes students of all ages, but you only get one chance - you can’t participate in Frosh in any year after your first one (however, you can apply to be a Leader, O-Staff, or Coordinator!). If you are a transfer or exchange student coming to McGill for your first year in Engineering or Architecture, you are welcome to participate in Frosh. ',
             open: false
           },
           {
@@ -94,18 +94,13 @@ function Faq() {
             open: false
           },
           {
-            question: 'Will there be any in-person events during the 2020 fall semester?',
-            answer: 'We may possibly host in-person events during the fall semester, with that said they will only take place if and when governement regulations allow them and if they can be done safely.',
+            question: 'Will there be any in-person events during the 2021 fall semester?',
+            answer: 'With the changing rules, it is not entirely clear what type of events will be allowed during the fall 2021 semester. Under normal circumstances, there are a variety of events hosted by the EUS every semester but they will only take place if and when governement regulations allow them and if they can be done safely. Find out more by checking the EUS Wiki.',
             open: false
           },
-         {
-          question: 'Will there be a winter frosh?',
-          answer: 'There have been discussions about hosting an in-person frosh at the beginning of the winter semester, the event is not confirmed yet and will only take place if and when government and university regulations allow it.',
-          open: false
-        },
         {
           question: 'Where can I learn more about groups and clubs on campus?',
-          answer: "We've put together an involvement video serie which showcases most clubs, committees and design team that you can join in the EUS, the playlist can be found on our Youtube channel (link in the footer) and on the EUS website.",
+          answer: "last year's coordinators put together an involvement video series which showcases most clubs, committees and design team that you can join in the EUS, the playlist can be found on our Youtube channel (link in the footer) and on the EUS website. There is also a ton of information on the EUS Wiki.",
           open: false
         },
           
