@@ -19,7 +19,9 @@ const styleSheet = {
     padding:0,
     margin:0
   },
-
+  paper: {
+    color:"black"
+  },
   list : {
     width : 100,
   },
@@ -34,7 +36,7 @@ const styleSheet = {
     cursor : "pointer",
   },
   list:{
-
+    color: "black"
 
   },buttons:{
     marginLeft:'auto',
@@ -143,7 +145,8 @@ class ResAppBar extends Component{
         <SwipeableDrawer
          open={this.state.drawer}
          onClose={()=>{this.setState({drawer:false})}}
-         onOpen={()=>{this.setState({drawer:true})}}>
+         onOpen={()=>{this.setState({drawer:true})}}
+         classes={{paper: this.props.classes.paper}}>
 
            <div
              tabIndex={0}
@@ -153,9 +156,9 @@ class ResAppBar extends Component{
               
 
          
-            <List className = {this.props.classes.list}>
+            <List classes = {{list: this.props.classes.list}}>
             {navLinks.map((link,index) =>(
-               <ListItem key = {1} button divider><Link to={link.path} className={styleSheet.links}>{link.title}</Link> </ListItem>
+               <ListItem key = {1} button divider><Link to={link.path} classes={{links: this.props.classes.links}}>{link.title}</Link> </ListItem>
                ))}
                  {/* <ListItem key = {1} button divider ><a href="https://mcgill-orientation-week.eventus.io">Register now!</a></ListItem> */}
              </List>

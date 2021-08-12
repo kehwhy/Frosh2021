@@ -1,6 +1,37 @@
 
 
-.small {
-    max-width: 10%;
-    padding: 1%;
+.crawl-sponsors {
+    max-width: 100%;
+    display: inline-block;
+    text-align: center;
+
+    img {
+        max-width: 12%;
+        min-width: 100px;
+        padding: 1%;
+    }
+}
+
+.other-sponsors {
+    max-width: 100%;
+    display: inline-block;
+    text-align: center;
+
+    img {
+        max-width: 12%;
+        min-width: 100px;
+        padding: 1%;
+    }
+}
+
+.major-sponsors {
+    max-width: 100%;
+    display: inline-block;
+    text-align: center;
+
+    img {
+        max-width: 25%;
+        min-width: 250px;
+        padding: 2%;
+    }
 }

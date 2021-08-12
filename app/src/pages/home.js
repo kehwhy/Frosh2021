@@ -1,12 +1,11 @@
 import React from 'react'
 import AOS from 'aos'
 import homepage from '../assets/images/frosh-2021-homepage.svg'
-import sponsors from '../assets/images/sponsors.svg'
 import CheckoutTile from './checkoutTile';
 
 import "../assets/scss/_home.scss"
 import { Button } from '@material-ui/core';
-import Sponsors from '../components/Sponsors';
+import Sponsors from '../components/common/Sponsors';
 
 
 
@@ -51,22 +50,22 @@ AOS.init({
             </div>    
     </div>
 
-    <section className="container home"> 
-    
-
-    <CheckoutTile title="EUS Wiki" description="The EUS Wiki contains information on everything you could ever want to know about life as a McGill Engineering student." link="https://eus.wiki/Launchpad" buttonTitle="Learn more"></CheckoutTile>
-
-    <CheckoutTile title="EUS Frosh Blog" description="Our frosh blog is filled with updates on COVID and its impact on Frosh, and articles from EUS publications curated for first year students!"link="https://oweek.mcgilleus.ca/#/blog" buttonTitle="Check it out"></CheckoutTile>
+    <section className="container home checkouttiles"> 
     
     <CheckoutTile title="Frosh Bursaries" description="If the tickets for Engineering Frosh are out of your budget, apply to our bursaries which help cover the costs of attending Engineering Frosh." link="https://drive.google.com/file/d/1nu2D2rgMbtf_Ry2al3DCuAanBmZiukGj/view?usp=sharing" buttonTitle="Apply now"></CheckoutTile>
 
+    <CheckoutTile title="EUS Frosh Blog" description="Our frosh blog is filled with updates on COVID and its impact on Frosh, and articles from EUS publications curated for first year students!"link="https://oweek.mcgilleus.ca/#/blog" buttonTitle="Check it out"></CheckoutTile>
+    
+    <CheckoutTile title="EUS Wiki" description="The EUS Wiki contains information on everything you could ever want to know about life as a McGill Engineering student." link="https://eus.wiki/Launchpad" buttonTitle="Learn more"></CheckoutTile>
+
+    <CheckoutTile title="Frosh 2021 Playlist" description="Our committee worked hard to put together this sick playlist which will be the soundtrack to your Engineering Frosh 2021." link="https://open.spotify.com/playlist/7lrPlcXz0z2gGGy9TeFSMP" buttonTitle="Listen now"></CheckoutTile>
     </section>
    
     <div className="container home"> 
     <div className="theme-reveal">
      
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/-zWp2mwdUzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-zWp2mwdUzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
            
             
     </div>

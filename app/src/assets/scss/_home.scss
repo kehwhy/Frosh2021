@@ -46,26 +46,31 @@ iframe{
 
   .paragraph{
     font-size: 1.45vw;
-    max-width: 85%;
+    max-width: 90%;
     margin: auto;
     padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
-  .registration-button{
-    background-color: #be103f;
-    text-align: center;
-    font-family: 'TopSecret';
-    font-size: 3vw;
-    color: white;
-    margin-top: -2.5%;
-    border-style: solid;
-    border-color: #be103f;
-    padding: 5px 20px;
-  }
+.registration-button{
+  background-color: #be103f;
+  text-align: center;
+  font-family: 'TopSecret';
+  font-size: 3vw;
+  color: white;
+  border-style: solid;
+  border-color: #be103f;
+  padding: 5px 20px;
+}
 
-  .registration-button:hover{
-      background-color: #961235;
-      border-color: #961235;
-      cursor: pointer;
-  }
+.registration-button:hover{
+  background-color: #961235;
+  border-color: #961235;
+  cursor: pointer;
+}
+
+.checkouttiles {
+  display: flex;
+  justify-content: center;
+}
