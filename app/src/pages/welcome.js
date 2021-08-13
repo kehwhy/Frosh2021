@@ -1,6 +1,4 @@
 import React from 'react'
-import profilepic from '../assets/images/profilepic.svg'
-import header from '../assets/images/header_welcome.png'
 
 export default function Welcome() {
     return(
@@ -12,9 +10,7 @@ export default function Welcome() {
         </h1>
         <a path="/blog" className="subtitle">We'll be publishing more articles as we learn more!</a>
         <br></br>
-        <img src={profilepic} className="profile" alt='logo'/> <a className="author"> Coords</a>
         <p className="date">August 10th, 2020</p>
-        <img className="logo" src={header} alt="logo"></img>
         <p className="article">
         <h2>To the Engineering Incoming Class of 2020,</h2> <br></br> 
 
