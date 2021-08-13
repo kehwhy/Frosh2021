@@ -12,7 +12,7 @@ import Sponsors from '../components/common/Sponsors';
 export default function Home() {
 
   const goToRegistration = (button) => {
-    window.open("http://www.google.com");
+    window.open("https://e1.envoke.com/ct/3975/2379498/769529796/d6d5458fb4044d1246b9c45ca24b31ac");
   }
 
 AOS.init({
@@ -53,9 +53,9 @@ AOS.init({
     <section className="container home checkouttiles"> 
     
     <CheckoutTile title="Frosh Bursaries" description="If the tickets for Engineering Frosh are out of your budget, apply to our bursaries which help cover the costs of attending Engineering Frosh." link="https://drive.google.com/file/d/1nu2D2rgMbtf_Ry2al3DCuAanBmZiukGj/view?usp=sharing" buttonTitle="Apply now"></CheckoutTile>
-
+{/* 
     <CheckoutTile title="EUS Frosh Blog" description="Our frosh blog is filled with updates on COVID and its impact on Frosh, and articles from EUS publications curated for first year students!"link="https://oweek.mcgilleus.ca/#/blog" buttonTitle="Check it out"></CheckoutTile>
-    
+     */}
     <CheckoutTile title="EUS Wiki" description="The EUS Wiki contains information on everything you could ever want to know about life as a McGill Engineering student." link="https://eus.wiki/Launchpad" buttonTitle="Learn more"></CheckoutTile>
 
     <CheckoutTile title="Frosh 2021 Playlist" description="Our committee worked hard to put together this sick playlist which will be the soundtrack to your Engineering Frosh 2021." link="https://open.spotify.com/playlist/7lrPlcXz0z2gGGy9TeFSMP" buttonTitle="Listen now"></CheckoutTile>

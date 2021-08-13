@@ -3,15 +3,8 @@ import { Document, Page } from 'react-pdf';
 import profilepic from '../assets/images/ledgerlogo.png'
 
 import mtltip from '../assets/pdfs/nostalgia.pdf'
-import mtltip2 from '../assets/images/mtl tip2.png'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faYoutube,
-  faFacebook,
-  faInstagram
-} from "@fortawesome/free-brands-svg-icons";
 
-
+import "../assets/scss/_welcome.scss"
 
 export default function MtlTips() {
 
@@ -31,7 +24,7 @@ export default function MtlTips() {
         </h1>
         <a className="subtitle">This cartoon was written for the <a href="https://ledger.mcgilleus.ca">Plumber's Ledger </a></a>
         <br></br>
-        <img src={profilepic} className="profile" alt='logo'/> <a className="author">E.D</a>
+        <p className="author"><img src={profilepic} className="profile" alt='logo'/> E.D</p>
         <p className="date">August 13th, 2020</p>
         <br></br><br></br>
         <div className="hide-small"><iframe src={mtltip} paddingLeft="20" alignSelf = "center" width="100%" height="700px" frameBorder='0' border="0"></iframe></div>

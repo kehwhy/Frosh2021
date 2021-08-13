@@ -48,7 +48,7 @@ function Footer() {
               <p className="number">Phone : (514) 398-4455</p>
               <p className="email">Email : oweek.mcgilleus.ca</p>         
       </div>
-      <p className="p2">&copy; McGill EUS 2020 <br/>Made with 💕 by Massy Mahamli and updated with ✨ by Katie Younge</p>
+      <p className="p2">&copy; McGill EUS 2021 <br/>Made with 💕 by Massy Mahamli and updated with ✨ by Katie Younge</p>
     </div>
   );
 }

@@ -13,6 +13,7 @@ import {
   faFacebook,
   faInstagram
 } from "@fortawesome/free-brands-svg-icons";
+import Schedule from './components/common/Schedule';
 function App() {
   return (
     <HashRouter>
@@ -21,6 +22,7 @@ function App() {
       <Switch>
       <Route path="/resources" component={Resources}/>
       <Route path="/coordinators" component={Coordinators}/>
+      <Route path="/schedule" component={Schedule}/>
         <Route path="/:page" component={PageRenderer} />
         
         <Route path="/" render={() => <Redirect to="/home" />}/>

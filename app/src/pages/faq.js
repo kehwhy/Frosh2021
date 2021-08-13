@@ -39,7 +39,7 @@ function Faq() {
           },
           {
             question: 'How much does Frosh cost?',
-            answer: 'This year we have 2 ticket types: online tickets and hybrid tickets. With an online ticket you get access to all of our online events and some exciting Engineering frosh exclusive merchandise. With the hybrid ticket, you get access to all of the online events, exclusive merchandise as well as a number of in-person activities that will take place throughout Frosh.',
+            answer: 'This year we have 2 ticket types: online tickets (15$) and hybrid tickets (125$). With an online ticket you get access to all of our online events and some exciting Engineering frosh exclusive merchandise. With the hybrid ticket, you get access to all of the online events, exclusive merchandise as well as a number of in-person activities that will take place throughout Frosh.',
             open: false
           },
           {

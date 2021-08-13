@@ -85,10 +85,10 @@ const navLinks = [
     title: 'Coordinators',
     path: '/coordinators',
   },
-  {
-      title: "Blog",
-      path: '/blog'
-  }, 
+  // {
+  //     title: "Blog",
+  //     path: '/blog'
+  // }, 
   {
     title: 'FAQ',
     path :'/faq'
@@ -128,7 +128,7 @@ class ResAppBar extends Component{
   createDrawer(){
     return (
       <div className={styleSheet.root}>
-        <AppBar position="fixed"  style={{ margin: 0, padding: 0, background:'white', boxShadow: 'blur',height:60}} >
+        <AppBar position="fixed"  style={{ margin: 0, padding: 0, background:'white', boxShadow: 'blur',height:50}} >
           <Toolbar style={{background: 'white'}}>
           
             <Grid container direction = "row" justify = "space-between" alignItems="center">
@@ -177,7 +177,7 @@ class ResAppBar extends Component{
       <AppBar position="fixed"  style={{flexGrow:0, margin: 0, padding: 0, background:'white', boxShadow: 'blur', height:'5vw',}}>
         <Toolbar>
             <div className="logo">
-              <img className="logo-img" src={logo} alt="Frosh 2021:The Ultimate Heist logo"></img>
+              <a href="/home"><img className="logo-img" src={logo} alt="Frosh 2021:The Ultimate Heist logo"></img></a>
             </div>
             <div className={classes.buttons}>
             
