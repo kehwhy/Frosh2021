@@ -59,8 +59,9 @@ AOS.init({
     <CheckoutTile title="EUS Frosh Blog" description="Our frosh blog is filled with updates on COVID and its impact on Frosh, and articles from EUS publications curated for first year students!"link="https://oweek.mcgilleus.ca/#/blog" buttonTitle="Check it out"></CheckoutTile>
      */}
 
+    <CheckoutTile title="Engineering 2021 Handbook" description="The Engineering Handbook contains information on all of the different events, spaces, clubs, committees, design teams and services at McGill." link="https://drive.google.com/file/d/1hfiQ0jLT5iBIBPLRRR0u607-JOhWWdvQ/view?usp=sharing" buttonTitle="Read it here"></CheckoutTile>
     <CheckoutTile title="EUS Wiki" description="The EUS Wiki contains information on everything you could ever want to know about life as a McGill Engineering student." link="https://eus.wiki/Launchpad" buttonTitle="Learn more"></CheckoutTile>
-
+    <CheckoutTile title="Who to call instead of the police?" description="Many students do not feel safe around law enforcement. If you are ever in an emergency, there are a number of other trained professionals you can call." link="https://drive.google.com/file/d/1pfZy1UhFG1ai1u6ExQyplo-q-JEWnxT3/view?usp=sharing" buttonTitle="Learn more"></CheckoutTile>
     <CheckoutTile title="Frosh 2021 Playlist" description="Our committee worked hard to put together this sick playlist which will be the soundtrack to your Engineering Frosh 2021." link="https://open.spotify.com/playlist/7lrPlcXz0z2gGGy9TeFSMP" buttonTitle="Listen now"></CheckoutTile>
     </section>
    
